@@ -365,3 +365,4 @@ Advanced information functions for more complex data handling.
 CELL: Returns information about the formatting, location, or contents of a cell.
 INFO: Returns information about the current operating environment.
 TYPE: Returns a number indicating the data type
+
