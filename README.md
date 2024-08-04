@@ -9,8 +9,8 @@ VLOOKUP: Searches for a value in the first column of a table and returns a value
 
 
 
-:blue_square:VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
-:blue_square:lookup_value: The value to search for.
+:blue_square:VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])<br />
+:blue_square:lookup_value: The value to search for.<br />
 :blue_square:table_array: The range of cells that contains the data.
 :blue_square:col_index_num: The column number in the table from which to retrieve the value.
 :blue_square:range_lookup: (Optional) TRUE for approximate match, FALSE for exact match.
