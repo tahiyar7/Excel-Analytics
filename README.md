@@ -56,5 +56,29 @@ A collection of pre-built Excel templates that you can use for various data anal
 
 
 Repository Structure
+
+excel-analytics-repo/
+│
+├── README.md
+│
+├── Sales_Data_Analysis/
+│   ├── Sales_Data_Analysis.xlsx
+│   └── Sales_Data_Analysis_Report.pdf
+│
+├── Customer_Segmentation/
+│   ├── Customer_Segmentation.xlsx
+│   └── Customer_Segmentation_Presentation.pptx
+│
+├── Financial_Modeling/
+│   ├── Financial_Model.xlsx
+│   └── Financial_Model_Guide.pdf
+│
+├── Resources/
+│   ├── Tutorials/
+│   ├── Templates/
+│   └── Datasets/
+│
+└── CONTRIBUTING.md
+
 Datasets
 A repository of datasets used in the projects and tutorials. Feel free to use these datasets to practice and enhance your data analysis skills.
