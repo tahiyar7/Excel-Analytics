@@ -7,8 +7,8 @@ Lookup functions are essential for searching and retrieving data within Excel.
 
 VLOOKUP: Searches for a value in the first column of a table and returns a value in the same row from a specified column.
 
-excel
-Copy code
+
+
 VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
 lookup_value: The value to search for.
 table_array: The range of cells that contains the data.
@@ -16,8 +16,8 @@ col_index_num: The column number in the table from which to retrieve the value.
 range_lookup: (Optional) TRUE for approximate match, FALSE for exact match.
 HLOOKUP: Searches for a value in the top row of a table and returns a value in the same column from a specified row.
 
-excel
-Copy code
+
+
 HLOOKUP(lookup_value, table_array, row_index_num, [range_lookup])
 lookup_value: The value to search for.
 table_array: The range of cells that contains the data.
@@ -25,8 +25,7 @@ row_index_num: The row number in the table from which to retrieve the value.
 range_lookup: (Optional) TRUE for approximate match, FALSE for exact match.
 XLOOKUP: Searches a range or an array and returns an item corresponding to the first match it finds. If a match doesn’t exist, then XLOOKUP can return the closest (approximate) match.
 
-excel
-Copy code
+
 XLOOKUP(lookup_value, lookup_array, return_array, [if_not_found], [match_mode], [search_mode])
 lookup_value: The value to search for.
 lookup_array: The array or range to search.
@@ -36,31 +35,27 @@ match_mode: (Optional) 0 - Exact match, 1 - Exact match or next larger item, -1 
 search_mode: (Optional) 1 - Search first to last, -1 - Search last to first, 2 - Binary search ascending order, -2 - Binary search descending order.
 MATCH: Searches for a specified item in a range of cells and returns the relative position of that item.
 
-excel
-Copy code
+
 MATCH(lookup_value, lookup_array, [match_type])
 lookup_value: The value to search for.
 lookup_array: The range of cells to search.
 match_type: (Optional) 1 - Less than, 0 - Exact match, -1 - Greater than.
 INDEX: Returns the value of an element in a table or array, selected by the row and column number indexes.
 
-excel
-Copy code
+
 INDEX(array, row_num, [column_num])
 array: The range of cells or array constant.
 row_num: The row number in the array.
 column_num: (Optional) The column number in the array.
 CHOOSE: Returns a value from a list of values, based on an index number.
 
-excel
-Copy code
+
 CHOOSE(index_num, value1, [value2], ...)
 index_num: Specifies which value to return.
 value1, value2, ...: The values from which to choose.
 OFFSET: Returns a reference to a range that is a specified number of rows and columns from a cell or range of cells.
 
-excel
-Copy code
+
 OFFSET(reference, rows, cols, [height], [width])
 reference: The reference from which you want to base the offset.
 rows: The number of rows, up or down, that you want the upper-left cell to refer to.
@@ -72,20 +67,17 @@ Data cleaning functions help in preparing and cleaning data for analysis.
 
 TRIM: Removes all spaces from a text string except for single spaces between words.
 
-excel
-Copy code
+
 TRIM(text)
 text: The text from which you want spaces removed.
 CLEAN: Removes all nonprintable characters from text.
 
-excel
-Copy code
+
 CLEAN(text)
 text: The text from which you want to remove nonprintable characters.
 SUBSTITUTE: Substitutes new text for old text in a text string.
 
-excel
-Copy code
+
 SUBSTITUTE(text, old_text, new_text, [instance_num])
 text: The text or the reference to a cell containing text.
 old_text: The text you want to replace.
@@ -93,8 +85,7 @@ new_text: The text you want to replace old_text with.
 instance_num: (Optional) Specifies which occurrence of old_text you want to replace. If omitted, every occurrence of old_text is replaced.
 REPLACE: Replaces part of a text string, based on the number of characters you specify, with a different text string.
 
-excel
-Copy code
+
 REPLACE(old_text, start_num, num_chars, new_text)
 old_text: The text string containing characters you want to replace.
 start_num: The position of the first character you want to replace.
@@ -102,69 +93,59 @@ num_chars: The number of characters in old_text that you want REPLACE to replace
 new_text: The text you want to replace old_text with.
 TEXT: Converts a value to text in a specific number format.
 
-excel
-Copy code
+
 TEXT(value, format_text)
 value: The value to be converted to text.
 format_text: The number format that you want to apply.
 VALUE: Converts a text string that represents a number to a number.
 
-excel
-Copy code
+
 VALUE(text)
 text: The text enclosed in quotation marks or a reference to a cell containing the text you want to convert.
 UPPER: Converts text to uppercase.
 
-excel
-Copy code
+
 UPPER(text)
 text: The text you want to convert to uppercase.
 LOWER: Converts text to lowercase.
 
-excel
-Copy code
+
 LOWER(text)
 text: The text you want to convert to lowercase.
 PROPER: Converts text to proper case; the first letter in each word in uppercase, and all other letters in lowercase.
 
-excel
-Copy code
+
 PROPER(text)
 text: The text you want to convert to proper case.
 LEFT: Returns the specified number of characters from the start of a text string.
 
-excel
-Copy code
+
 LEFT(text, [num_chars])
 text: The text string containing the characters you want to extract.
 num_chars: (Optional) Specifies the number of characters you want LEFT to extract.
 RIGHT: Returns the specified number of characters from the end of a text string.
 
-excel
-Copy code
+
 RIGHT(text, [num_chars])
 text: The text string containing the characters you want to extract.
 num_chars: (Optional) Specifies the number of characters you want RIGHT to extract.
 MID: Returns a specific number of characters from a text string, starting at the position you specify.
 
-excel
-Copy code
+
 MID(text, start_num, num_chars)
 text: The text string containing the characters you want to extract.
 start_num: The position of the first character you want to extract.
 num_chars: The number of characters you want MID to return.
 FIND: Finds one text value within another (case-sensitive).
 
-excel
-Copy code
+
 FIND(find_text, within_text, [start_num])
 find_text: The text you want to find.
 within_text: The text containing the text you want to find.
 start_num: (Optional) The character number in within_text at which to start the search.
 SEARCH: Finds one text value within another (not case-sensitive).
 
-excel
-Copy code
+
 SEARCH(find_text, within_text, [start_num])
 find_text: The text you want to find.
 within_text: The text containing the text you want to find.
