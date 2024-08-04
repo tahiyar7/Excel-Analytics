@@ -2,6 +2,9 @@
 This repository contains Excel-based analytics projects showcasing various data analysis techniques, including data cleaning, visualization, and statistical analysis. It serves as a resource for learning and demonstrating practical applications of Excel in data-driven decision-making.
 
 ## Conditional Formatting 
+<br />
+This cheat sheet is one of my favorites short cuts for the excel daily tips. 
+<br />
 
 ![image](https://github.com/user-attachments/assets/478f3ce0-06ec-4cd4-a8da-90ae83912bbe)
 
