@@ -4,7 +4,7 @@ This repository contains Excel-based analytics projects showcasing various data 
 ## Lookup and Data Cleaning Functions in Excel
 Lookup Functions
 Lookup functions are essential for searching and retrieving data within Excel.
-
+	:sparkle:
 VLOOKUP: Searches for a value in the first column of a table and returns a value in the same row from a specified column.
 
 
