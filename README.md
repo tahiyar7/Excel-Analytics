@@ -98,7 +98,7 @@ UPPER: Converts text to uppercase.
 
 
 UPPER(text)
-text: The text you want to convert to uppercase.
+text: The text you want to convert to uppercase.<br />
 LOWER: Converts text to lowercase.
 
 
