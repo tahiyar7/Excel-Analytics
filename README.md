@@ -79,7 +79,7 @@ REPLACE: Replaces part of a text string, based on the number of characters you s
 
 
 REPLACE(old_text, start_num, num_chars, new_text)
-old_text: The text string containing characters you want to replace.
+old_text: The text string containing characters you want to replace.<br />
 start_num: The position of the first character you want to replace.
 num_chars: The number of characters in old_text that you want REPLACE to replace with new_text.
 new_text: The text you want to replace old_text with.
