@@ -109,7 +109,7 @@ PROPER: Converts text to proper case; the first letter in each word in uppercase
 
 PROPER(text)
 text: The text you want to convert to proper case.
-LEFT: Returns the specified number of characters from the start of a text string.
+LEFT: Returns the specified number of characters from the start of a text string.<br />
 
 
 LEFT(text, [num_chars])
