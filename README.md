@@ -144,7 +144,7 @@ within_text: The text containing the text you want to find.
 start_num: (Optional) The character number in within_text at which to start the search.
 
 
-#Comprehensive Guide to Excel Functions for Data Analysts and Data Scientists
+#Comprehensive Guide to Excel Functions for Data Analysts and Data Scientists<br />
 Excel is a powerful tool that offers a wide range of functions catering to different needs in data analysis, financial modeling, accounting, and more. Below, we categorize these functions to help you leverage Excel for your data projects.
 
 1. Financial Functions
