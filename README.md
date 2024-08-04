@@ -182,7 +182,7 @@ SUM: Adds all the numbers in a range of cells.
 PRODUCT: Multiplies all the numbers in a range of cells.
 ABS: Returns the absolute value of a number.
 ROUND, ROUNDUP, ROUNDDOWN: Rounds a number to a specified number of digits.
-INT: Rounds a number down to the nearest integer.
+INT: Rounds a number down to the nearest integer.<br />
 RAND and RANDBETWEEN: Generate random numbers.
 5. Logical Functions
 Logical functions are used to perform logical operations.
