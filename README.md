@@ -80,3 +80,119 @@ Functions useful for engineering and complex calculations.
 COMPLEX: Converts real and imaginary coefficients into a complex number.
 IMSUM, IMPRODUCT: Perform arithmetic operations with complex numbers.
 CONVERT: Converts a number from one measurement system to another.
+
+
+
+
+
+
+
+Advanced Excel Functions for Data Analysts and Data Scientists
+1. Financial Functions
+Excel offers powerful financial functions to perform complex financial calculations.
+
+XNPV: Calculates the net present value for a schedule of cash flows at specific dates.
+XIRR: Returns the internal rate of return for a schedule of cash flows that is not necessarily periodic.
+CUMIPMT: Returns the cumulative interest paid on a loan between two periods.
+CUMPRINC: Returns the cumulative principal paid on a loan between two periods.
+DB: Returns the depreciation of an asset for a specified period using the fixed-declining balance method.
+DDB: Returns the depreciation of an asset for a specified period using the double-declining balance method.
+SYD: Returns the sum-of-years' digits depreciation of an asset for a specified period.
+VDB: Returns the depreciation of an asset for any period you specify, including partial periods, using the double-declining balance method or another method you specify.
+ACCRINT: Returns the accrued interest for a security that pays periodic interest.
+ACCRINTM: Returns the accrued interest for a security that pays interest at maturity.
+2. Statistical Functions
+Advanced statistical functions help in performing more complex statistical analyses.
+
+FORECAST.ETS: Returns a future value based on existing (historical) values using the AAA version of the Exponential Smoothing (ETS) algorithm.
+FORECAST.ETS.SEASONALITY: Returns the length of the repetitive pattern Excel detects for the specified time series.
+FORECAST.ETS.CONFINT: Returns a confidence interval for the forecast value at a specified target date.
+FORECAST.ETS.STAT: Returns a statistical value as a result of time series forecasting.
+PERCENTILE.EXC: Returns the k-th percentile of values in a range, where k is in the range 0..1, exclusive.
+PERCENTILE.INC: Returns the k-th percentile of values in a range.
+QUARTILE.EXC: Returns the quartile of the data set, based on percentile values from 0..1, exclusive.
+QUARTILE.INC: Returns the quartile of a data set.
+RANK.EQ: Returns the rank of a number in a list of numbers.
+RANK.AVG: Returns the rank of a number in a list of numbers.
+WEIBULL.DIST: Returns the Weibull distribution.
+GAMMA.DIST: Returns the gamma distribution.
+GAMMA.INV: Returns the inverse of the gamma cumulative distribution.
+LOGNORM.DIST: Returns the cumulative log-normal distribution.
+LOGNORM.INV: Returns the inverse of the log-normal cumulative distribution.
+NORM.DIST: Returns the normal distribution for a specified mean and standard deviation.
+NORM.INV: Returns the inverse of the normal cumulative distribution.
+T.DIST: Returns the Student's t-distribution.
+T.INV: Returns the t-value of the Student's t-distribution as a function of the probability and the degrees of freedom.
+F.DIST: Returns the F probability distribution.
+F.INV: Returns the inverse of the F probability distribution.
+3. Data Analysis Functions
+Advanced data analysis functions for handling complex datasets and performing sophisticated analyses.
+
+GETPIVOTDATA: Extracts data stored in a PivotTable report.
+CUBESET: Defines a calculated set of members or tuples by sending a set expression to the cube on the server.
+CUBEVALUE: Returns an aggregated value from a cube.
+CUBEMEMBER: Returns a member or tuple from the cube.
+CUBESETCOUNT: Returns the number of items in a set.
+CUBERANKEDMEMBER: Returns the nth, or ranked, member in a set.
+CUBEKPIMEMBER: Returns a key performance indicator (KPI) property and displays the KPI name in the cell.
+4. Mathematical and Trigonometric Functions
+Advanced mathematical and trigonometric functions for complex calculations.
+
+MROUND: Rounds a number to the nearest multiple of a specified value.
+CEILING.MATH: Rounds a number up, to the nearest integer or to the nearest multiple of significance.
+FLOOR.MATH: Rounds a number down, to the nearest integer or to the nearest multiple of significance.
+ERF.PRECISE: Returns the error function.
+ERFC.PRECISE: Returns the complementary ERF function.
+FACTDOUBLE: Returns the double factorial of a number.
+GCD: Returns the greatest common divisor.
+LCM: Returns the least common multiple.
+MDETERM: Returns the matrix determinant of an array.
+MINVERSE: Returns the matrix inverse of an array.
+MMULT: Returns the matrix product of two arrays.
+MULTINOMIAL: Returns the multinomial of a set of numbers.
+QUOTIENT: Returns the integer portion of a division.
+SQRTPI: Returns the square root of (number * pi).
+SUMPRODUCT: Returns the sum of the products of corresponding array components.
+SUMSQ: Returns the sum of the squares of the arguments.
+TEXT: Converts a value to text in a specific number format.
+UNICODE: Returns the number (code point) corresponding to the first character of the text.
+5. Logical Functions
+Advanced logical functions to perform more complex logical operations.
+
+IFNA: Returns the value you specify if the expression resolves to #N/A, otherwise returns the result of the expression.
+IFS: Checks whether one or more conditions are met and returns a value that corresponds to the first TRUE condition.
+SWITCH: Evaluates an expression against a list of values and returns the result corresponding to the first matching value.
+6. Text Functions
+Advanced text functions for handling and manipulating text strings.
+
+TEXTJOIN: Combines text from multiple ranges and/or strings, and includes a delimiter you specify between each text value that will be combined.
+UNICHAR: Returns the Unicode character that is referenced by the given numeric value.
+CONCAT: Combines multiple ranges and/or strings into one string.
+7. Lookup and Reference Functions
+Advanced lookup and reference functions for more sophisticated data retrieval.
+
+MATCH: Searches for a specified item in a range of cells and returns the relative position of that item.
+INDEX: Returns the value of an element in a table or array, selected by the row and column number indexes.
+CHOOSE: Returns a value from a list of values, based on an index number.
+HLOOKUP: Searches for a value in the top row of a table and returns a value in the same column from a specified row.
+VLOOKUP: Searches for a value in the first column of a table and returns a value in the same row from a specified column.
+XLOOKUP: Searches a range or an array, and returns an item corresponding to the first match it finds. If a match doesn’t exist, then XLOOKUP can return the closest (approximate) match.
+8. Date and Time Functions
+Advanced date and time functions for sophisticated date and time manipulations.
+
+NETWORKDAYS.INTL: Returns the number of whole workdays between two dates using parameters to indicate which and how many days are weekend days.
+WORKDAY.INTL: Returns the serial number of the date before or after a specified number of workdays with custom weekends.
+ISO.WEEKNUM: Returns the number of the ISO week number of the year for a given date.
+YEARFRAC: Returns the year fraction representing the number of whole days between start_date and end_date.
+9. Engineering Functions
+Advanced engineering functions for complex engineering calculations.
+
+IMDIV: Returns the quotient of two complex numbers.
+IMPOWER: Returns a complex number raised to an integer power.
+IMSQRT: Returns the square root of a complex number.
+10. Information Functions
+Advanced information functions for more complex data handling.
+
+CELL: Returns information about the formatting, location, or contents of a cell.
+INFO: Returns information about the current operating environment.
+TYPE: Returns a number indicating the data type
