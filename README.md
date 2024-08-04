@@ -5,16 +5,16 @@ This repository contains Excel-based analytics projects showcasing various data 
 Lookup Functions
 Lookup functions are essential for searching and retrieving data within Excel.
 
-VLOOKUP: Searches for a value in the first column of a table and returns a value in the same row from a specified column. 	:sparkle:
+VLOOKUP: Searches for a value in the first column of a table and returns a value in the same row from a specified column. 
 
 
 
-VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
-lookup_value: The value to search for.
-table_array: The range of cells that contains the data.
-col_index_num: The column number in the table from which to retrieve the value.
-range_lookup: (Optional) TRUE for approximate match, FALSE for exact match.
-HLOOKUP: Searches for a value in the top row of a table and returns a value in the same column from a specified row.
+:blue_square:VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
+:blue_square:lookup_value: The value to search for.
+:blue_square:table_array: The range of cells that contains the data.
+:blue_square:col_index_num: The column number in the table from which to retrieve the value.
+:blue_square:range_lookup: (Optional) TRUE for approximate match, FALSE for exact match.
+:blue_square:HLOOKUP: Searches for a value in the top row of a table and returns a value in the same column from a specified row.
 
 
 
