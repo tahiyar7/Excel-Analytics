@@ -10,80 +10,80 @@ VLOOKUP: Searches for a value in the first column of a table and returns a value
 
 
 :blue_square:VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])<br />
-:blue_square:lookup_value: The value to search for.<br />
-:blue_square:table_array: The range of cells that contains the data.<br />
-:blue_square:col_index_num: The column number in the table from which to retrieve the value.<br />
-:blue_square:range_lookup: (Optional) TRUE for approximate match, FALSE for exact match.<br />
+lookup_value: The value to search for.<br />
+table_array: The range of cells that contains the data.<br />
+col_index_num: The column number in the table from which to retrieve the value.<br />
+range_lookup: (Optional) TRUE for approximate match, FALSE for exact match.<br />
 :blue_square:HLOOKUP: Searches for a value in the top row of a table and returns a value in the same column from a specified row.<br />
 
 
 
-HLOOKUP(lookup_value, table_array, row_index_num, [range_lookup])
-lookup_value: The value to search for.
-table_array: The range of cells that contains the data.
-row_index_num: The row number in the table from which to retrieve the value.
-range_lookup: (Optional) TRUE for approximate match, FALSE for exact match.
-XLOOKUP: Searches a range or an array and returns an item corresponding to the first match it finds. If a match doesn’t exist, then XLOOKUP can return the closest (approximate) match.
+HLOOKUP(lookup_value, table_array, row_index_num, [range_lookup])<br />
+lookup_value: The value to search for.<br />
+table_array: The range of cells that contains the data.<br />
+row_index_num: The row number in the table from which to retrieve the value.<br />
+range_lookup: (Optional) TRUE for approximate match, FALSE for exact match.<br />
+XLOOKUP: Searches a range or an array and returns an item corresponding to the first match it finds. If a match doesn’t exist, then XLOOKUP can return the closest (approximate) match.<br />
 
 
-XLOOKUP(lookup_value, lookup_array, return_array, [if_not_found], [match_mode], [search_mode])
-lookup_value: The value to search for.
-lookup_array: The array or range to search.
-return_array: The array or range to return.
-if_not_found: (Optional) The value to return if no match is found.
-match_mode: (Optional) 0 - Exact match, 1 - Exact match or next larger item, -1 - Exact match or next smaller item, 2 - Wildcard character match.
-search_mode: (Optional) 1 - Search first to last, -1 - Search last to first, 2 - Binary search ascending order, -2 - Binary search descending order.
-MATCH: Searches for a specified item in a range of cells and returns the relative position of that item.
+XLOOKUP(lookup_value, lookup_array, return_array, [if_not_found], [match_mode], [search_mode])<br />
+lookup_value: The value to search for.<br />
+lookup_array: The array or range to search.<br />
+return_array: The array or range to return.<br />
+if_not_found: (Optional) The value to return if no match is found.<br />
+match_mode: (Optional) 0 - Exact match, 1 - Exact match or next larger item, -1 - Exact match or next smaller item, 2 - Wildcard character match.<br />
+search_mode: (Optional) 1 - Search first to last, -1 - Search last to first, 2 - Binary search ascending order, -2 - Binary search descending order.<br />
+MATCH: Searches for a specified item in a range of cells and returns the relative position of that item.<br />
 
 
-MATCH(lookup_value, lookup_array, [match_type])
-lookup_value: The value to search for.
-lookup_array: The range of cells to search.
-match_type: (Optional) 1 - Less than, 0 - Exact match, -1 - Greater than.
-INDEX: Returns the value of an element in a table or array, selected by the row and column number indexes.
+MATCH(lookup_value, lookup_array, [match_type])<br />
+lookup_value: The value to search for.<br />
+lookup_array: The range of cells to search.<br />
+match_type: (Optional) 1 - Less than, 0 - Exact match, -1 - Greater than.<br />
+INDEX: Returns the value of an element in a table or array, selected by the row and column number indexes.<br />
 
 
-INDEX(array, row_num, [column_num])
-array: The range of cells or array constant.
-row_num: The row number in the array.
-column_num: (Optional) The column number in the array.
-CHOOSE: Returns a value from a list of values, based on an index number.
+INDEX(array, row_num, [column_num])<br />
+array: The range of cells or array constant.<br />
+row_num: The row number in the array.<br />
+column_num: (Optional) The column number in the array.<br />
+CHOOSE: Returns a value from a list of values, based on an index number.<br />
 
 
-CHOOSE(index_num, value1, [value2], ...)
-index_num: Specifies which value to return.
-value1, value2, ...: The values from which to choose.
-OFFSET: Returns a reference to a range that is a specified number of rows and columns from a cell or range of cells.
+CHOOSE(index_num, value1, [value2], ...)<br />
+index_num: Specifies which value to return.<br />
+value1, value2, ...: The values from which to choose.<br />
+OFFSET: Returns a reference to a range that is a specified number of rows and columns from a cell or range of cells.<br />
 
 
-OFFSET(reference, rows, cols, [height], [width])
-reference: The reference from which you want to base the offset.
-rows: The number of rows, up or down, that you want the upper-left cell to refer to.
-cols: The number of columns, to the left or right, that you want the upper-left cell to refer to.
-height: (Optional) The height, in number of rows, that you want the returned reference to be.
-width: (Optional) The width, in number of columns, that you want the returned reference to be.
-Data Cleaning Functions
-Data cleaning functions help in preparing and cleaning data for analysis.
+OFFSET(reference, rows, cols, [height], [width])<br />
+reference: The reference from which you want to base the offset.<br />
+rows: The number of rows, up or down, that you want the upper-left cell to refer to.<br />
+cols: The number of columns, to the left or right, that you want the upper-left cell to refer to.<br />
+height: (Optional) The height, in number of rows, that you want the returned reference to be.<br />
+width: (Optional) The width, in number of columns, that you want the returned reference to be.<br />
+Data Cleaning Functions<br />
+Data cleaning functions help in preparing and cleaning data for analysis.<br />
 
-TRIM: Removes all spaces from a text string except for single spaces between words.
-
-
-TRIM(text)
-text: The text from which you want spaces removed.
-CLEAN: Removes all nonprintable characters from text.
+TRIM: Removes all spaces from a text string except for single spaces between words.<br />
 
 
-CLEAN(text)
-text: The text from which you want to remove nonprintable characters.
-SUBSTITUTE: Substitutes new text for old text in a text string.
+TRIM(text)<br />
+text: The text from which you want spaces removed.<br />
+CLEAN: Removes all nonprintable characters from text.<br />
 
 
-SUBSTITUTE(text, old_text, new_text, [instance_num])
-text: The text or the reference to a cell containing text.
-old_text: The text you want to replace.
-new_text: The text you want to replace old_text with.
-instance_num: (Optional) Specifies which occurrence of old_text you want to replace. If omitted, every occurrence of old_text is replaced.
-REPLACE: Replaces part of a text string, based on the number of characters you specify, with a different text string.
+CLEAN(text)<br />
+text: The text from which you want to remove nonprintable characters.<br />
+SUBSTITUTE: Substitutes new text for old text in a text string.<br />
+
+
+SUBSTITUTE(text, old_text, new_text, [instance_num])<br />
+text: The text or the reference to a cell containing text.<br />
+old_text: The text you want to replace.<br />
+new_text: The text you want to replace old_text with.<br />
+instance_num: (Optional) Specifies which occurrence of old_text you want to replace. If omitted, every occurrence of old_text is replaced.<br />
+REPLACE: Replaces part of a text string, based on the number of characters you specify, with a different text string.<br />
 
 
 REPLACE(old_text, start_num, num_chars, new_text)
