@@ -84,7 +84,7 @@ text: The text or the reference to a cell containing text.<br />
 old_text: The text you want to replace.<br />
 new_text: The text you want to replace old_text with.<br />
 instance_num: (Optional) Specifies which occurrence of old_text you want to replace. If omitted, every occurrence of old_text is replaced.<br />
-REPLACE: Replaces part of a text string, based on the number of characters you specify, with a different text string.<br />
+:blue_square:REPLACE: Replaces part of a text string, based on the number of characters you specify, with a different text string.<br />
 
 
 REPLACE(old_text, start_num, num_chars, new_text)
