@@ -34,9 +34,8 @@ return_array: The array or range to return.<br />
 if_not_found: (Optional) The value to return if no match is found.<br />
 match_mode: (Optional) 0 - Exact match, 1 - Exact match or next larger item, -1 - Exact match or next smaller item, 2 - Wildcard character match.<br />
 search_mode: (Optional) 1 - Search first to last, -1 - Search last to first, 2 - Binary search ascending order, -2 - Binary search descending order.<br />
-MATCH: Searches for a specified item in a range of cells and returns the relative position of that item.<br />
 
-
+:blue_square:MATCH: Searches for a specified item in a range of cells and returns the relative position of that item.<br />
 MATCH(lookup_value, lookup_array, [match_type])<br />
 lookup_value: The value to search for.<br />
 lookup_array: The range of cells to search.<br />
