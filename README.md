@@ -65,30 +65,29 @@ width: (Optional) The width, in number of columns, that you want the returned re
 ## Data Cleaning Functions<br />
 Data cleaning functions help in preparing and cleaning data for analysis.<br />
 <br />
+
 :blue_square:TRIM: Removes all spaces from a text string except for single spaces between words.<br />
 TRIM(text)<br />
 text: The text from which you want spaces removed.<br />
+
 :blue_square:CLEAN: Removes all nonprintable characters from text.<br />
-
-
 CLEAN(text)<br />
 text: The text from which you want to remove nonprintable characters.<br />
+
 :blue_square:SUBSTITUTE: Substitutes new text for old text in a text string.<br />
-
-
 SUBSTITUTE(text, old_text, new_text, [instance_num])<br />
 text: The text or the reference to a cell containing text.<br />
 old_text: The text you want to replace.<br />
 new_text: The text you want to replace old_text with.<br />
 instance_num: (Optional) Specifies which occurrence of old_text you want to replace. If omitted, every occurrence of old_text is replaced.<br />
+
 :blue_square:REPLACE: Replaces part of a text string, based on the number of characters you specify, with a different text string.<br />
-
-
 REPLACE(old_text, start_num, num_chars, new_text)
 old_text: The text string containing characters you want to replace.<br />
 start_num: The position of the first character you want to replace.
 num_chars: The number of characters in old_text that you want REPLACE to replace with new_text.
-new_text: The text you want to replace old_text with.
+new_text: The text you want to replace old_text with.<br />
+
 :blue_square:TEXT: Converts a value to text in a specific number format.
 TEXT(value, format_text)
 value: The value to be converted to text.
