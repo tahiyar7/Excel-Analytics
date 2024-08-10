@@ -26,35 +26,35 @@ lookup_value: The value to search for.<br />
 table_array: The range of cells that contains the data.<br />
 row_index_num: The row number in the table from which to retrieve the value.<br />
 range_lookup: (Optional) TRUE for approximate match, FALSE for exact match.<br />
-XLOOKUP: Searches a range or an array and returns an item corresponding to the first match it finds. If a match doesn’t exist, then XLOOKUP can return the closest (approximate) match.<br />
+:blue_square: XLOOKUP: Searches a range or an array and returns an item corresponding to the first match it finds. If a match doesn’t exist, then XLOOKUP can return the closest (approximate) match.<br />
 XLOOKUP(lookup_value, lookup_array, return_array, [if_not_found], [match_mode], [search_mode])<br />
 lookup_value: The value to search for.<br />
 lookup_array: The array or range to search.<br />
-return_array: The array or range to return.<br />
-if_not_found: (Optional) The value to return if no match is found.<br />
-match_mode: (Optional) 0 - Exact match, 1 - Exact match or next larger item, -1 - Exact match or next smaller item, 2 - Wildcard character match.<br />
-search_mode: (Optional) 1 - Search first to last, -1 - Search last to first, 2 - Binary search ascending order, -2 - Binary search descending order.<br />
-MATCH: Searches for a specified item in a range of cells and returns the relative position of that item.<br />
+:blue_square:return_array: The array or range to return.<br />
+:blue_square:if_not_found: (Optional) The value to return if no match is found.<br />
+:blue_square:match_mode: (Optional) 0 - Exact match, 1 - Exact match or next larger item, -1 - Exact match or next smaller item, 2 - Wildcard character match.<br />
+:blue_square:search_mode: (Optional) 1 - Search first to last, -1 - Search last to first, 2 - Binary search ascending order, -2 - Binary search descending order.<br />
+:blue_square:MATCH: Searches for a specified item in a range of cells and returns the relative position of that item.<br />
 
 
 MATCH(lookup_value, lookup_array, [match_type])<br />
 lookup_value: The value to search for.<br />
 lookup_array: The range of cells to search.<br />
 match_type: (Optional) 1 - Less than, 0 - Exact match, -1 - Greater than.<br />
-INDEX: Returns the value of an element in a table or array, selected by the row and column number indexes.<br />
+:blue_square:INDEX: Returns the value of an element in a table or array, selected by the row and column number indexes.<br />
 
 
 INDEX(array, row_num, [column_num])<br />
 array: The range of cells or array constant.<br />
 row_num: The row number in the array.<br />
 column_num: (Optional) The column number in the array.<br />
-CHOOSE: Returns a value from a list of values, based on an index number.<br />
+:blue_square:CHOOSE: Returns a value from a list of values, based on an index number.<br />
 
 
 CHOOSE(index_num, value1, [value2], ...)<br />
 index_num: Specifies which value to return.<br />
 value1, value2, ...: The values from which to choose.<br />
-OFFSET: Returns a reference to a range that is a specified number of rows and columns from a cell or range of cells.<br />
+:blue_square:OFFSET: Returns a reference to a range that is a specified number of rows and columns from a cell or range of cells.<br />
 
 
 OFFSET(reference, rows, cols, [height], [width])<br />
