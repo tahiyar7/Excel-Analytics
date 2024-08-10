@@ -65,10 +65,8 @@ height: (Optional) The height, in number of rows, that you want the returned ref
 width: (Optional) The width, in number of columns, that you want the returned reference to be.<br />
 ## Data Cleaning Functions<br />
 Data cleaning functions help in preparing and cleaning data for analysis.<br />
-
+<br />
 :blue_square:TRIM: Removes all spaces from a text string except for single spaces between words.<br />
-
-
 TRIM(text)<br />
 text: The text from which you want spaces removed.<br />
 :blue_square:CLEAN: Removes all nonprintable characters from text.<br />
