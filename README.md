@@ -66,17 +66,17 @@ width: (Optional) The width, in number of columns, that you want the returned re
 Data Cleaning Functions<br />
 Data cleaning functions help in preparing and cleaning data for analysis.<br />
 
-TRIM: Removes all spaces from a text string except for single spaces between words.<br />
+:blue_square:TRIM: Removes all spaces from a text string except for single spaces between words.<br />
 
 
 TRIM(text)<br />
 text: The text from which you want spaces removed.<br />
-CLEAN: Removes all nonprintable characters from text.<br />
+:blue_square:CLEAN: Removes all nonprintable characters from text.<br />
 
 
 CLEAN(text)<br />
 text: The text from which you want to remove nonprintable characters.<br />
-SUBSTITUTE: Substitutes new text for old text in a text string.<br />
+:blue_square:SUBSTITUTE: Substitutes new text for old text in a text string.<br />
 
 
 SUBSTITUTE(text, old_text, new_text, [instance_num])<br />
