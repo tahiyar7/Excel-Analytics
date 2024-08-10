@@ -20,14 +20,17 @@ lookup_value: The value to search for.<br />
 table_array: The range of cells that contains the data.<br />
 col_index_num: The column number in the table from which to retrieve the value.<br />
 range_lookup: (Optional) TRUE for approximate match, FALSE for exact match.<br />
+
 :blue_square:HLOOKUP: Searches for a value in the top row of a table and returns a value in the same column from a specified row.<br />
 HLOOKUP(lookup_value, table_array, row_index_num, [range_lookup])<br />
 lookup_value: The value to search for.<br />
 table_array: The range of cells that contains the data.<br />
 row_index_num: The row number in the table from which to retrieve the value.<br />
 range_lookup: (Optional) TRUE for approximate match, FALSE for exact match.<br />
+
 :blue_square: XLOOKUP: Searches a range or an array and returns an item corresponding to the first match it finds. If a match doesn’t exist, then XLOOKUP can return the closest (approximate) match.<br />
 XLOOKUP(lookup_value, lookup_array, return_array, [if_not_found], [match_mode], [search_mode])<br />
+
 :blue_square:lookup_value: The value to search for.<br />
 lookup_array: The array or range to search.<br />
 return_array: The array or range to return.<br />
@@ -88,43 +91,50 @@ start_num: The position of the first character you want to replace.
 num_chars: The number of characters in old_text that you want REPLACE to replace with new_text.
 new_text: The text you want to replace old_text with.<br />
 
-:blue_square:TEXT: Converts a value to text in a specific number format.
+:blue_square:TEXT: Converts a value to text in a specific number format.<br />
 TEXT(value, format_text)
 value: The value to be converted to text.
-format_text: The number format that you want to apply.
-:blue_square:VALUE: Converts a text string that represents a number to a number.
+format_text: The number format that you want to apply.<br />
+
+:blue_square:VALUE: Converts a text string that represents a number to a number.<br />
 VALUE(text)
-text: The text enclosed in quotation marks or a reference to a cell containing the text you want to convert.
-:blue_square:UPPER: Converts text to uppercase.
+text: The text enclosed in quotation marks or a reference to a cell containing the text you want to convert.<br />
+
+:blue_square:UPPER: Converts text to uppercase.<br />
 UPPER(text)
 text: The text you want to convert to uppercase.<br />
-:blue_square:LOWER: Converts text to lowercase.
+
+:blue_square:LOWER: Converts text to lowercase.<br />
 LOWER(text)
-text: The text you want to convert to lowercase.
+text: The text you want to convert to lowercase.<br />
+
 :blue_square:PROPER: Converts text to proper case; the first letter in each word in uppercase, and all other letters in lowercase.
 PROPER(text)
-text: The text you want to convert to proper case.
+text: The text you want to convert to proper case.<br />
+
 :blue_square:LEFT: Returns the specified number of characters from the start of a text string.<br />
 LEFT(text, [num_chars])
 text: The text string containing the characters you want to extract.
-num_chars: (Optional) Specifies the number of characters you want LEFT to extract.
-:blue_square:RIGHT: Returns the specified number of characters from the end of a text string.
+num_chars: (Optional) Specifies the number of characters you want LEFT to extract.<br />
+
+:blue_square:RIGHT: Returns the specified number of characters from the end of a text string.<br />
 RIGHT(text, [num_chars])
 text: The text string containing the characters you want to extract.
-num_chars: (Optional) Specifies the number of characters you want RIGHT to extract.
-:blue_square:MID: Returns a specific number of characters from a text string, starting at the position you specify.
+num_chars: (Optional) Specifies the number of characters you want RIGHT to extract.<br />
+
+:blue_square:MID: Returns a specific number of characters from a text string, starting at the position you specify.<br />
 MID(text, start_num, num_chars)
 text: The text string containing the characters you want to extract.
 start_num: The position of the first character you want to extract.
-num_chars: The number of characters you want MID to return.
-:blue_square:FIND: Finds one text value within another (case-sensitive).
+num_chars: The number of characters you want MID to return.<br />
+
+:blue_square:FIND: Finds one text value within another (case-sensitive).<br />
 FIND(find_text, within_text, [start_num])
 find_text: The text you want to find.
 within_text: The text containing the text you want to find.
-start_num: (Optional) The character number in within_text at which to start the search.
-:blue_square:SEARCH: Finds one text value within another (not case-sensitive).
+start_num: (Optional) The character number in within_text at which to start the search.<br />
 
-
+:blue_square:SEARCH: Finds one text value within another (not case-sensitive).<br />
 SEARCH(find_text, within_text, [start_num])
 find_text: The text you want to find.
 within_text: The text containing the text you want to find.
