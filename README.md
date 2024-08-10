@@ -144,7 +144,7 @@ FIND(find_text, within_text, [start_num])
 find_text: The text you want to find.
 within_text: The text containing the text you want to find.
 start_num: (Optional) The character number in within_text at which to start the search.
-SEARCH: Finds one text value within another (not case-sensitive).
+:blue_square:SEARCH: Finds one text value within another (not case-sensitive).
 
 
 SEARCH(find_text, within_text, [start_num])
