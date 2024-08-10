@@ -103,12 +103,12 @@ VALUE: Converts a text string that represents a number to a number.
 
 VALUE(text)
 text: The text enclosed in quotation marks or a reference to a cell containing the text you want to convert.
-UPPER: Converts text to uppercase.
+:blue_square:UPPER: Converts text to uppercase.
 
 
 UPPER(text)
 text: The text you want to convert to uppercase.<br />
-LOWER: Converts text to lowercase.
+:blue_square:LOWER: Converts text to lowercase.
 
 
 LOWER(text)
