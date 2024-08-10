@@ -89,54 +89,36 @@ old_text: The text string containing characters you want to replace.<br />
 start_num: The position of the first character you want to replace.
 num_chars: The number of characters in old_text that you want REPLACE to replace with new_text.
 new_text: The text you want to replace old_text with.
-TEXT: Converts a value to text in a specific number format.
-
-
+:blue_square:TEXT: Converts a value to text in a specific number format.
 TEXT(value, format_text)
 value: The value to be converted to text.
 format_text: The number format that you want to apply.
-VALUE: Converts a text string that represents a number to a number.
-
-
+:blue_square:VALUE: Converts a text string that represents a number to a number.
 VALUE(text)
 text: The text enclosed in quotation marks or a reference to a cell containing the text you want to convert.
 :blue_square:UPPER: Converts text to uppercase.
-
-
 UPPER(text)
 text: The text you want to convert to uppercase.<br />
 :blue_square:LOWER: Converts text to lowercase.
-
-
 LOWER(text)
 text: The text you want to convert to lowercase.
-PROPER: Converts text to proper case; the first letter in each word in uppercase, and all other letters in lowercase.
-
-
+:blue_square:PROPER: Converts text to proper case; the first letter in each word in uppercase, and all other letters in lowercase.
 PROPER(text)
 text: The text you want to convert to proper case.
-LEFT: Returns the specified number of characters from the start of a text string.<br />
-
-
+:blue_square:LEFT: Returns the specified number of characters from the start of a text string.<br />
 LEFT(text, [num_chars])
 text: The text string containing the characters you want to extract.
 num_chars: (Optional) Specifies the number of characters you want LEFT to extract.
-RIGHT: Returns the specified number of characters from the end of a text string.
-
-
+:blue_square:RIGHT: Returns the specified number of characters from the end of a text string.
 RIGHT(text, [num_chars])
 text: The text string containing the characters you want to extract.
 num_chars: (Optional) Specifies the number of characters you want RIGHT to extract.
-MID: Returns a specific number of characters from a text string, starting at the position you specify.
-
-
+:blue_square:MID: Returns a specific number of characters from a text string, starting at the position you specify.
 MID(text, start_num, num_chars)
 text: The text string containing the characters you want to extract.
 start_num: The position of the first character you want to extract.
 num_chars: The number of characters you want MID to return.
-FIND: Finds one text value within another (case-sensitive).
-
-
+:blue_square:FIND: Finds one text value within another (case-sensitive).
 FIND(find_text, within_text, [start_num])
 find_text: The text you want to find.
 within_text: The text containing the text you want to find.
