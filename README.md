@@ -63,7 +63,7 @@ rows: The number of rows, up or down, that you want the upper-left cell to refer
 cols: The number of columns, to the left or right, that you want the upper-left cell to refer to.<br />
 height: (Optional) The height, in number of rows, that you want the returned reference to be.<br />
 width: (Optional) The width, in number of columns, that you want the returned reference to be.<br />
-Data Cleaning Functions<br />
+## Data Cleaning Functions<br />
 Data cleaning functions help in preparing and cleaning data for analysis.<br />
 
 :blue_square:TRIM: Removes all spaces from a text string except for single spaces between words.<br />
