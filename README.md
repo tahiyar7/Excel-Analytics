@@ -234,7 +234,7 @@ XNPV: Calculates the net present value for a schedule of cash flows at specific 
 XIRR: Returns the internal rate of return for a schedule of cash flows that is not necessarily periodic.
 CUMIPMT: Returns the cumulative interest paid on a loan between two periods.
 CUMPRINC: Returns the cumulative principal paid on a loan between two periods.
-DB: Returns the depreciation of an asset for a specified period using the fixed-declining balance method.
+DB: Returns the depreciation of an asset for a specified period using the fixed-declining balance method.<br />
 DDB: Returns the depreciation of an asset for a specified period using the double-declining balance method.
 SYD: Returns the sum-of-years' digits depreciation of an asset for a specified period.
 VDB: Returns the depreciation of an asset for any period you specify, including partial periods, using the double-declining balance method or another method you specify.
