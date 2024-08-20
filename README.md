@@ -211,7 +211,7 @@ TODAY: Returns the current date.
 NOW: Returns the current date and time.
 DATE: Returns the date given a year, month, and day.
 DATEDIF: Calculates the difference between two dates.
-EDATE: Returns the date that is the indicated number of months before or after the start date.
+EDATE: Returns the date that is the indicated number of months before or after the start date.<br />
 EOMONTH: Returns the last day of the month, n months in the future or past.
 9. Engineering Functions
 Functions useful for engineering and complex calculations.<br />
