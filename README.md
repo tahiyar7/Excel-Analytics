@@ -200,7 +200,7 @@ UPPER, LOWER, PROPER: Convert text to uppercase, lowercase, or proper case.
 7. Lookup and Reference Functions
 These functions are used to search and reference data within Excel.
 
-VLOOKUP: Looks for a value in the first column of a table and returns a value in the same row from a specified column.
+VLOOKUP: Looks for a value in the first column of a table and returns a value in the same row from a specified column.<br />
 HLOOKUP: Searches for a value in the top row of a table and returns a value in the same column from a specified row.
 MATCH: Searches for a specified item in a range of cells and returns the relative position of that item.
 INDEX: Returns the value of an element in a table or array, selected by the row and column number indexes.
