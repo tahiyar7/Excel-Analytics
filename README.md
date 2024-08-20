@@ -188,7 +188,7 @@ IF: Returns one value if a condition is true and another value if it is false.
 AND: Returns TRUE if all arguments are TRUE.
 OR: Returns TRUE if any argument is TRUE.
 NOT: Reverses the logic of its argument.
-IFERROR: Returns a value you specify if a formula evaluates to an error; otherwise, it returns the result of the formula.
+IFERROR: Returns a value you specify if a formula evaluates to an error; otherwise, it returns the result of the formula.<br />
 6. Text Functions
 Text functions are used for string manipulation and text analysis.
 
