@@ -235,7 +235,7 @@ XIRR: Returns the internal rate of return for a schedule of cash flows that is n
 CUMIPMT: Returns the cumulative interest paid on a loan between two periods.
 CUMPRINC: Returns the cumulative principal paid on a loan between two periods.
 DB: Returns the depreciation of an asset for a specified period using the fixed-declining balance method.<br />
-DDB: Returns the depreciation of an asset for a specified period using the double-declining balance method.
+DDB: Returns the depreciation of an asset for a specified period using the double-declining balance method.<br />
 SYD: Returns the sum-of-years' digits depreciation of an asset for a specified period.
 VDB: Returns the depreciation of an asset for any period you specify, including partial periods, using the double-declining balance method or another method you specify.
 ACCRINT: Returns the accrued interest for a security that pays periodic interest.
