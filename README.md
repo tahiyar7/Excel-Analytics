@@ -138,7 +138,7 @@ start_num: (Optional) The character number in within_text at which to start the 
 SEARCH(find_text, within_text, [start_num])
 find_text: The text you want to find.
 within_text: The text containing the text you want to find.
-start_num: (Optional) The character number in within_text at which to start the search.
+start_num: (Optional) The character number in within_text at which to start the search.<br />
 
 
 #Comprehensive Guide to Excel Functions for Data Analysts and Data Scientists<br />
