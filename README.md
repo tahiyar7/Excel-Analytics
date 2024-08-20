@@ -216,7 +216,7 @@ EOMONTH: Returns the last day of the month, n months in the future or past.
 9. Engineering Functions
 Functions useful for engineering and complex calculations.<br />
 
-COMPLEX: Converts real and imaginary coefficients into a complex number.
+COMPLEX: Converts real and imaginary coefficients into a complex number.<br />
 IMSUM, IMPRODUCT: Perform arithmetic operations with complex numbers.
 CONVERT: Converts a number from one measurement system to another.
 
