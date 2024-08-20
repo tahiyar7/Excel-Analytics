@@ -214,7 +214,7 @@ DATEDIF: Calculates the difference between two dates.
 EDATE: Returns the date that is the indicated number of months before or after the start date.
 EOMONTH: Returns the last day of the month, n months in the future or past.
 9. Engineering Functions
-Functions useful for engineering and complex calculations.
+Functions useful for engineering and complex calculations.<br />
 
 COMPLEX: Converts real and imaginary coefficients into a complex number.
 IMSUM, IMPRODUCT: Perform arithmetic operations with complex numbers.
