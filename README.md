@@ -233,7 +233,7 @@ Excel offers powerful financial functions to perform complex financial calculati
 XNPV: Calculates the net present value for a schedule of cash flows at specific dates.
 XIRR: Returns the internal rate of return for a schedule of cash flows that is not necessarily periodic.<br />
 CUMIPMT: Returns the cumulative interest paid on a loan between two periods.
-CUMPRINC: Returns the cumulative principal paid on a loan between two periods.
+CUMPRINC: Returns the cumulative principal paid on a loan between two periods.<br />
 DB: Returns the depreciation of an asset for a specified period using the fixed-declining balance method.<br />
 DDB: Returns the depreciation of an asset for a specified period using the double-declining balance method.<br />
 SYD: Returns the sum-of-years' digits depreciation of an asset for a specified period.
