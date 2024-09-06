@@ -159,7 +159,7 @@ These functions help in statistical analysis, allowing data analysts and scienti
 AVERAGE: Returns the average of a set of numbers.
 MEDIAN: Finds the median of a set of numbers.
 MODE: Determines the most frequently occurring number in a dataset.
-STDEV.P and STDEV.S: Calculate the standard deviation for a population and a sample, respectively.
+STDEV.P and STDEV.S: Calculate the standard deviation for a population and a sample, respectively.<br />
 VAR.P and VAR.S: Compute the variance for a population and a sample, respectively.<br />
 CORREL: Returns the correlation coefficient between two data sets.
 LINEST: Returns the parameters of a linear trend.
