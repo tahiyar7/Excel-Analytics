@@ -12,7 +12,7 @@ This cheat sheet is one of my favorites short cuts for the excel daily tips.
 
 ## Lookup and Data Cleaning Functions in Excel
 Lookup Functions
-Lookup functions are essential for searching and retrieving data within Excel.
+Lookup functions are essential for searching and retrieving data within Excel.<br />
 
 :blue_square:VLOOKUP: Searches for a value in the first column of a table and returns a value in the same row from a specified column. 
 VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])<br />
