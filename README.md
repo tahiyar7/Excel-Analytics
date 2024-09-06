@@ -184,7 +184,7 @@ RAND and RANDBETWEEN: Generate random numbers.
 5. Logical Functions
 Logical functions are used to perform logical operations.
 
-IF: Returns one value if a condition is true and another value if it is false.
+IF: Returns one value if a condition is true and another value if it is false.<br />
 AND: Returns TRUE if all arguments are TRUE.
 OR: Returns TRUE if any argument is TRUE.
 NOT: Reverses the logic of its argument.
