@@ -119,13 +119,13 @@ num_chars: (Optional) Specifies the number of characters you want LEFT to extrac
 
 :blue_square:RIGHT: Returns the specified number of characters from the end of a text string.<br />
 RIGHT(text, [num_chars])
-text: The text string containing the characters you want to extract.
+text: The text string containing the characters you want to extract.<br />
 num_chars: (Optional) Specifies the number of characters you want RIGHT to extract.<br />
 
 :blue_square:MID: Returns a specific number of characters from a text string, starting at the position you specify.<br />
 MID(text, start_num, num_chars)
-text: The text string containing the characters you want to extract.
-start_num: The position of the first character you want to extract.
+text: The text string containing the characters you want to extract.<br />
+start_num: The position of the first character you want to extract.<br />
 num_chars: The number of characters you want MID to return.<br />
 
 :blue_square:FIND: Finds one text value within another (case-sensitive).<br />
