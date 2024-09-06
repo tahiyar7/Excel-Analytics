@@ -228,7 +228,7 @@ CONVERT: Converts a number from one measurement system to another.
 
 Advanced Excel Functions for Data Analysts and Data Scientists
 1. Financial Functions
-Excel offers powerful financial functions to perform complex financial calculations.
+Excel offers powerful financial functions to perform complex financial calculations.<br />
 
 XNPV: Calculates the net present value for a schedule of cash flows at specific dates.
 XIRR: Returns the internal rate of return for a schedule of cash flows that is not necessarily periodic.<br />
