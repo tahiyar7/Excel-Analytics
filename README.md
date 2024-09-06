@@ -244,7 +244,7 @@ ACCRINTM: Returns the accrued interest for a security that pays interest at matu
 Advanced statistical functions help in performing more complex statistical analyses.
 
 FORECAST.ETS: Returns a future value based on existing (historical) values using the AAA version of the Exponential Smoothing (ETS) algorithm.
-FORECAST.ETS.SEASONALITY: Returns the length of the repetitive pattern Excel detects for the specified time series.
+FORECAST.ETS.SEASONALITY: Returns the length of the repetitive pattern Excel detects for the specified time series.<br />
 FORECAST.ETS.CONFINT: Returns a confidence interval for the forecast value at a specified target date.<br />
 FORECAST.ETS.STAT: Returns a statistical value as a result of time series forecasting.<br />
 PERCENTILE.EXC: Returns the k-th percentile of values in a range, where k is in the range 0..1, exclusive.<br />
