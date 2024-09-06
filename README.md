@@ -149,7 +149,7 @@ Excel provides numerous functions to handle financial calculations, which are es
 
 FV (Future Value): Calculates the future value of an investment.
 PV (Present Value): Computes the present value of an investment.
-NPV (Net Present Value): Calculates the net present value of an investment based on a series of periodic cash flows and a discount rate.
+NPV (Net Present Value): Calculates the net present value of an investment based on a series of periodic cash flows and a discount rate.<br />
 IRR (Internal Rate of Return): Determines the internal rate of return for a series of cash flows.
 PMT (Payment): Calculates the payment for a loan based on constant payments and a constant interest rate.
 RATE: Returns the interest rate per period of an annuity.<br />
