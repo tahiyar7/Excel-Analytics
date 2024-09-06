@@ -173,7 +173,7 @@ XLOOKUP: Searches a range or an array and returns an item corresponding to the f
 SUMIF and SUMIFS: Sum cells based on a single or multiple criteria.
 COUNTIF and COUNTIFS: Count cells based on single or multiple criteria.
 4. Mathematical Functions
-Essential mathematical functions for performing calculations and analyses.
+Essential mathematical functions for performing calculations and analyses.<br />
 
 SUM: Adds all the numbers in a range of cells.
 PRODUCT: Multiplies all the numbers in a range of cells.
