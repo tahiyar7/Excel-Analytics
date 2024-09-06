@@ -185,7 +185,7 @@ RAND and RANDBETWEEN: Generate random numbers.
 Logical functions are used to perform logical operations.
 
 IF: Returns one value if a condition is true and another value if it is false.<br />
-AND: Returns TRUE if all arguments are TRUE.
+AND: Returns TRUE if all arguments are TRUE.<br />
 OR: Returns TRUE if any argument is TRUE.
 NOT: Reverses the logic of its argument.
 IFERROR: Returns a value you specify if a formula evaluates to an error; otherwise, it returns the result of the formula.<br />
