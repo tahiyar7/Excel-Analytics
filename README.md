@@ -193,7 +193,7 @@ IFERROR: Returns a value you specify if a formula evaluates to an error; otherwi
 Text functions are used for string manipulation and text analysis.
 
 CONCATENATE / CONCAT / TEXTJOIN: Combine multiple strings into one string.
-LEFT, RIGHT, MID: Extract a specified number of characters from a string.
+LEFT, RIGHT, MID: Extract a specified number of characters from a string.<br />
 LEN: Returns the number of characters in a string.
 TRIM: Removes all spaces from a text string except for single spaces between words.<br />
 UPPER, LOWER, PROPER: Convert text to uppercase, lowercase, or proper case.
