@@ -169,7 +169,7 @@ Excel functions for data analysis help in managing, manipulating, and analyzing 
 SORT: Sorts the contents of a range or array.
 FILTER: Filters a range of data based on criteria you define.
 UNIQUE: Returns a list of unique values in a list or range.
-XLOOKUP: Searches a range or an array and returns an item corresponding to the first match it finds.
+XLOOKUP: Searches a range or an array and returns an item corresponding to the first match it finds.<br />
 SUMIF and SUMIFS: Sum cells based on a single or multiple criteria.
 COUNTIF and COUNTIFS: Count cells based on single or multiple criteria.
 4. Mathematical Functions
