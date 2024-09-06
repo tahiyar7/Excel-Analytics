@@ -239,7 +239,7 @@ DDB: Returns the depreciation of an asset for a specified period using the doubl
 SYD: Returns the sum-of-years' digits depreciation of an asset for a specified period.
 VDB: Returns the depreciation of an asset for any period you specify, including partial periods, using the double-declining balance method or another method you specify.
 ACCRINT: Returns the accrued interest for a security that pays periodic interest.
-ACCRINTM: Returns the accrued interest for a security that pays interest at maturity.
+ACCRINTM: Returns the accrued interest for a security that pays interest at maturity.<br />
 2. Statistical Functions
 Advanced statistical functions help in performing more complex statistical analyses.
 
