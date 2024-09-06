@@ -109,7 +109,7 @@ LOWER(text)
 text: The text you want to convert to lowercase.<br />
 
 :blue_square:PROPER: Converts text to proper case; the first letter in each word in uppercase, and all other letters in lowercase.
-PROPER(text)
+PROPER(text)<br />
 text: The text you want to convert to proper case.<br />
 
 :blue_square:LEFT: Returns the specified number of characters from the start of a text string.<br />
