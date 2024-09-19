@@ -164,7 +164,7 @@ VAR.P and VAR.S: Compute the variance for a population and a sample, respectivel
 CORREL: Returns the correlation coefficient between two data sets.
 LINEST: Returns the parameters of a linear trend.
 3. Data Analysis Functions
-Excel functions for data analysis help in managing, manipulating, and analyzing data sets.
+Excel functions for data analysis help in managing, manipulating, and analyzing data sets.<br />
 
 SORT: Sorts the contents of a range or array.
 FILTER: Filters a range of data based on criteria you define.
