@@ -144,7 +144,7 @@ start_num: (Optional) The character number in within_text at which to start the 
 #Comprehensive Guide to Excel Functions for Data Analysts and Data Scientists<br />
 Excel is a powerful tool that offers a wide range of functions catering to different needs in data analysis, financial modeling, accounting, and more. Below, we categorize these functions to help you leverage Excel for your data projects.
 
-1. Financial Functions
+🟦1. Financial Functions
 Excel provides numerous functions to handle financial calculations, which are essential for data analysts and financial modelers.<br />
 
 FV (Future Value): Calculates the future value of an investment.
