@@ -10,7 +10,7 @@ This cheat sheet is one of my favorites short cuts for the excel daily tips.
 
 
 
-## Lookup and Data Cleaning Functions in Excel
+🟦## Lookup and Data Cleaning Functions in Excel
 Lookup Functions
 Lookup functions are essential for searching and retrieving data within Excel.<br />
 
