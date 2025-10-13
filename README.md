@@ -59,7 +59,7 @@ value1, value2, ...: The values from which to choose.<br />
 :blue_square:OFFSET: Returns a reference to a range that is a specified number of rows and columns from a cell or range of cells.<br />
 
 
-OFFSET(reference, rows, cols, [height], [width])<br />
+🟦OFFSET(reference, rows, cols, [height], [width])<br />
 reference: The reference from which you want to base the offset.<br />
 rows: The number of rows, up or down, that you want the upper-left cell to refer to.<br />
 cols: The number of columns, to the left or right, that you want the upper-left cell to refer to.<br />
